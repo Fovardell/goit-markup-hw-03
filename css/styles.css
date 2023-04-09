@@ -255,21 +255,41 @@ address .link {
 /* ================================================-_(/main)_-=============================================== */
 
 /* ================================================-_(portfolio)_-================================================ */
+.portfolio{
+	padding: 96px 0px 120px;
+}
 .button {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
-
 	color: var(--primary-brand);
 	background-color: var(--light);
 
 	border: 1px solid #e7e9fc;
 	border-radius: 4px;
+	padding: 12px 24px;
 }
 .button:hover,
 .button:focus {
 	background-color: var(--pressed-state);
 	color: var(--white-background);
+}
+.portfolio-btn{
+	gap: 24px;
+}
+.porfolio-buttons{
+	justify-content: center;
+	margin-bottom: 72px;
+}
+.portfolio-items{
+	--items: 3;
+	border: 1px solid var(--cornflower);
+}
+.portfolio-list{
+	row-gap: 48px;
+}
+.item-text{
+	padding: 32px 16px;
 }
 /* ================================================-_(/portfolio)_-=============================================== */
 
