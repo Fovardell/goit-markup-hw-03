@@ -63,6 +63,7 @@ p {
 	width: 1158px;
 	padding: 0 15px;
 	margin: 0 auto;
+	align-items: center;
 }
 .visually-hidden {
 	position: absolute;
@@ -81,6 +82,9 @@ p {
 /* ================================================-_(header)_-================================================ */
 header {
 	border-bottom: 1px solid #e7e9fc;
+}
+.header-nav {
+	align-items: center;
 }
 .link-styles {
 	color: var(--primary-brand);
@@ -196,7 +200,7 @@ address .link {
 	margin: 0 auto;
 	text-align: center;
 
-	max-width: 500px;
+	max-width: 496px;
 	margin-bottom: 48px;
 }
 .button-hero {
@@ -206,15 +210,16 @@ address .link {
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 	font-weight: 500;
-	border-radius: 4px;
 
+	height: 56px;
 	display: block;
 	margin: 0 auto;
 	padding: 16px 32px;
-	border: 0px solid transparent;
+	border: none;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
 }
-.hero > .container {
+.hero {
 	padding: 188px 0px;
 }
 .button-hero:hover,
@@ -228,7 +233,7 @@ address .link {
 	padding: 120px 0;
 }
 .features {
-	padding-bottom: 0;
+	padding: 120px 0;
 }
 /* ================================================-_(/features)_-=============================================== */
 
@@ -240,7 +245,8 @@ address .link {
 /* ================================================-_(Team)_-================================================ */
 .team-info {
 	text-align: center;
-	margin: 32px 16px;
+	padding: 32px 16px;
+	border-radius: 0px 0px 4px 4px;
 }
 .team {
 	background-color: var(--light);
@@ -255,8 +261,9 @@ address .link {
 /* ================================================-_(/main)_-=============================================== */
 
 /* ================================================-_(portfolio)_-================================================ */
-.portfolio{
+.portfolio {
 	padding: 96px 0px 120px;
+	border: 1px solid #e7e9fc;
 }
 .button {
 	font-size: 16px;
@@ -273,22 +280,23 @@ address .link {
 .button:focus {
 	background-color: var(--pressed-state);
 	color: var(--white-background);
+	border: 1px solid transparent;
 }
-.portfolio-btn{
+.portfolio-btn {
 	gap: 24px;
 }
-.porfolio-buttons{
+.porfolio-buttons {
 	justify-content: center;
 	margin-bottom: 72px;
 }
-.portfolio-items{
+.portfolio-items {
 	--items: 3;
 	border: 1px solid var(--cornflower);
 }
-.portfolio-list{
+.portfolio-list {
 	row-gap: 48px;
 }
-.item-text{
+.item-text {
 	padding: 32px 16px;
 }
 /* ================================================-_(/portfolio)_-=============================================== */
@@ -299,8 +307,11 @@ address .link {
 	padding: 100px 0;
 }
 .footer p {
-	margin-top: 16px;
 	width: 265px;
+}
+.footer-logo{
+		display: inline-block;
+		margin-bottom: 16px;
 }
 .footer .logo-accent,
 .footer .text {
