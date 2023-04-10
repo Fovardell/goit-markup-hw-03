@@ -177,6 +177,9 @@ address .link {
 
 	margin-bottom: 8px;
 }
+.section-geometry {
+	padding: 120px 0;
+}
 
 /* ================================================-_(/common-styles)_-=============================================== */
 
@@ -205,7 +208,7 @@ address .link {
 	letter-spacing: 0.04em;
 	font-weight: 500;
 
-	min-width: 169px
+	min-width: 169px;
 	height: 56px;
 	display: block;
 	margin: 0 auto;
@@ -224,11 +227,9 @@ address .link {
 /* ================================================-_(/hero)_-=============================================== */
 
 /* ================================================-_(features)_-================================================ */
-.section-geometry {
-	padding: 120px 0;
-}
+
 .features {
-	padding: 120px 0 0;
+	padding: 120px 0;
 }
 .features-item {
 	flex-basis: calc((100% - 3 * 24px) / 4);
@@ -236,8 +237,11 @@ address .link {
 /* ================================================-_(/features)_-=============================================== */
 
 /* ================================================-_(Work)_-================================================ */
-.work-item{
-		flex-basis: calc((100% - 2 * 24px) / 3);
+.work {
+	padding-top: 0;
+}
+.work-item {
+	flex-basis: calc((100% - 2 * 24px) / 3);
 }
 /* ================================================-_(/Work)_-=============================================== */
 /* ================================================-_(Team)_-================================================ */
@@ -253,7 +257,7 @@ address .link {
 	background-color: var(--white-background);
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 	border-radius: 0px 0px 4px 4px;
-	
+
 	flex-basis: calc((100% - 3 * 24px) / 4);
 }
 /* ================================================-_(/Team)_-=============================================== */
@@ -306,9 +310,9 @@ address .link {
 .footer p {
 	width: 265px;
 }
-.footer-logo{
-		display: inline-block;
-		margin-bottom: 16px;
+.footer-logo {
+	display: inline-block;
+	margin-bottom: 16px;
 }
 .footer .logo-accent,
 .footer .text {
