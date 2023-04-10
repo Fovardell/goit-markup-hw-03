@@ -306,7 +306,7 @@ address .link {
 .footer {
 	background-color: var(--dark);
 	padding: 100px 0;
-	backround-size: 100%;
+	background-size: 100%;
 }
 .footer p {
 	width: 265px;
